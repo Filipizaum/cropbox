@@ -103,7 +103,7 @@ YUI.add('crop-box', function (Y) {
                     dim = this.imageBox.getStyle('backgroundPosition').split(' '),
                     size = this.imageBox.getStyle('backgroundSize').split(' '),
                     dx = parseInt(dim[0]) - this.imageBox.get('clientWidth')/2 + width/2,
-                    dy = parseInt(dim[1]) - this.imageBox.get('clientHeight')/2 + height/2,
+                    dy = parseInt(dim[1]) - this.imageBox.get('clientHeight')/2 + height,
                     dw = parseInt(size[0]),
                     dh = parseInt(size[1]),
                     sh = parseInt(this.image.height),

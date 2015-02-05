@@ -29,7 +29,7 @@
                         dim = el.css('background-position').split(' '),
                         size = el.css('background-size').split(' '),
                         dx = parseInt(dim[0]) - el.width()/2 + width/2,
-                        dy = parseInt(dim[1]) - el.height()/2 + height/2,
+                        dy = parseInt(dim[1]) - el.height()/2 + height,
                         dw = parseInt(size[0]),
                         dh = parseInt(size[1]),
                         sh = parseInt(this.image.height),
